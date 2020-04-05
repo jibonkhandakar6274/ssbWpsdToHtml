@@ -231,6 +231,7 @@ a.round-button:hover {
     background: linear-gradient(to left, #1281f9 , #511de5,#511de5);
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
     font-weight: 800;
     margin-right: 5px;
 }
