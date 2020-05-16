@@ -17,7 +17,7 @@
 		text-align: center;
 	}
 	.banner-content h2 {
-		font-size: 20px;
+		font-size: 21px;
 		margin-bottom: 16px;
 	}
 	a.round-button {
@@ -33,6 +33,9 @@
 	#second-banner .second-banner-content h4 {
 		font-size: 20px;
 	}
+	.feature-item {
+		padding: 10px;
+	}
 	.feature-content {
 		text-align: center;
 	}
@@ -47,10 +50,10 @@
 		font-size: 70px;
 	}
 	.feature-52 h3 {
-		font-size: 15px;
+		font-size: 13px;
 	}
 	.feature-img {
-		width: 347px;
+		width: 100%;
 		background-position: center center;
 	}
 	.logo-slider {
@@ -59,17 +62,15 @@
 	#intro-design {
 		text-align: center;
 	}
-	.intro-design-inner-left {
-		padding: 0px 0px;
-	}
 	.intro-left-content-inner {
-		padding-top: 60px;
-		padding-bottom: 100px;
+		position: absolute;
+		content: '';
+		top: 80px;
+		left: 80px;
 	}
+
 	.intro-design-inner-left p {
-		padding-left: 72px;
 		font-size: 16px;
-		padding-top: 22px;
 	}
 	.intro-design-inner-left h5 {
 		margin-top: 12px;
@@ -132,7 +133,137 @@
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
+	.navbar-nav{
+		background: #F6F6F6;
+		text-align: center;
+	}
+	.right-nav .nav-item {
+		margin-right: 0px;
+		padding-bottom: 20px;
+	}
+	#banner {
+		height: 100vh;
+	}
+	.banner-content {
+		top: 60%;
+		left: 50%;
+		text-align: center;
+	}
+	.banner-content h2 {
+		font-size: 21px;
+		margin-bottom: 16px;
+	}
+	a.round-button {
+		padding: 13px 20px;
+		font-size: 10px;
+	}
+	.w-img {
+		top: -140px;
+	}
+	.w-img img {
+		width: 100%;
+		height: 140px;
+	}
+	#second-banner .second-banner-content {
+		padding: 0px 0px;
+	}
+	#second-banner .second-banner-content h4 {
+		font-size: 20px;
+	}
+	.feature-item {
+		padding: 10px;
+	}
+	.feature-content {
+		text-align: center;
+	}
+	.feature-content h2 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	.feature-content p {
+		font-size: 15px;
+	}
+	.feature-52 span {
+		font-size: 70px;
+	}
+	.feature-52 h3 {
+		font-size: 13px;
+	}
+	.feature-img {
+		width: 100%;
+		background-position: center center;
+	}
+	.logo-slider {
+		padding-left: 130px;
+	}
+	#intro-design {
+		text-align: center;
+		padding-bottom: 330px;
+	}
+	.intro-design-inner-left p {
+		padding-left: 72px;
+		font-size: 16px;
+		padding-top: 22px;
+	}
+	.intro-design-inner-left h5 {
+		margin-top: 12px;
+	}
+	.intro-design-inner-right {
+		margin-top: 40px;
+	}
+	.intro-design-inner-right h4 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	.intro-design-inner-right .round-button {
+		margin-top: 20px;
+	}
+	#efficiency-to-happiness {
+		padding: 0;
+		margin-top: -100px;
+		text-align: center;
+	}
+	.efficiency-left-content h2 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.efficiency-left-content p {
+		font-size: 15px;
+		padding: 20px 0;
+	}
+	.efficiency-left-content a.round-button {
+		margin-top: 30px;
+	}
+	.quote-item {
+		margin-bottom: 20px;
+	}
+	.title {
+		padding: 0;
+	}
+	.title h2 {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.title p {
+		padding: 30px 0px;
+	}
+	.feedback-item {
+		margin-bottom: 20px;
+	}
+	footer {
+		text-align: center;
+	}
+	footer .faq .title {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.footer-bottom-left li a {
+		font-size: 13px;
+	}
+	.footer-bottom-right p {
+		font-size: 13px;
+		margin-top: 20px;
+	}
 }
 
 /* 
@@ -180,20 +311,15 @@
 		font-size: 16px;
 	}
 	.feature-img {
-		width: 311px;
-		background-position: center center;
-	}
-	.intro-design-inner-left {
-		padding: 0px 0px;
+		background-position: left center;
+		width: 100%;
 	}
 	.intro-left-content-inner {
-		padding-top: 60px;
-		padding-bottom: 100px;
+		top: 80px;
+		left: 80px;
 	}
 	.intro-design-inner-left p {
-		padding-left: 72px;
 		font-size: 16px;
-		padding-top: 22px;
 	}
 	.intro-design-inner-left h5 {
 		margin-top: 12px;
@@ -269,21 +395,15 @@
 		font-weight: 700;
 	}
 	.feature-img {
-		width: 420px;
-		background-position: center center;
-	}
-	.intro-design-inner-left {
-		padding: 36px 70px;
+		width: 100%;
+		background-position: left center;
 	}
 	.intro-left-content-inner {
-		padding-top: 108px;
+		top: 140px;
+		left: 140px;
 	}
 	.intro-design-inner-left p {
-		padding-left: 45px;
 		font-size: 18px;
-	}
-	.intro-design-inner-left h5 {
-		padding-left: 45px;
 	}
 	.intro-design-inner-right h4 {
 		font-size: 40px;
